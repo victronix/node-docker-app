@@ -10,7 +10,7 @@ app.get("/",(req, res) => {
     res.send("Hello Victronix")
 });
 
-
+// Express server
 app.listen(PORT, HOST, (res) => {
     console.log("Server running on PORT: " + PORT);
 })
